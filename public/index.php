@@ -1,5 +1,12 @@
 <?php
 
+//use Phalcon\Loader;
+//use Phalcon\Mvc\View;
+//use Phalcon\Mvc\Application;
+//use Phalcon\Di\FactoryDefault;
+//use Phalcon\Mvc\Url as UrlProvider;
+//use Phalcon\Db\Adapter\Pdo\Mysql as DbAdapter;
+
 error_reporting(E_ALL);
 
 define('APP_PATH', realpath('..'));
