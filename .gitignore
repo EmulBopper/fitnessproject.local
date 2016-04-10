@@ -66,4 +66,5 @@ $RECYCLE.BIN/
 ### Phalcon template
 /cache/
 /config/development/
+database/
 
