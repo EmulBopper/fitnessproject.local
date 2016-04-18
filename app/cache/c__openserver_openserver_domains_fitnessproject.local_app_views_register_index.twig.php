@@ -1,7 +1,7 @@
 <h1>Страница регистрации</h1>
 
 <div>
-    <form action="#" method="post">
+    <form action="RegisterController.php" method="post">
         <div>
             <input type="text" name="login" id="login" value="Логин" />
             <label for="login">Как вас называть?</label>
@@ -24,3 +24,5 @@
         </div>
     </form>
 </div>
+
+<div><?= $login; ?></div>
