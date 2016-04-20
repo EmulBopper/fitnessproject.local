@@ -21,12 +21,13 @@ try {
     /**
      * Read auto-loader
      */
-    include APP_PATH . "/app/config/loader.php";
+    include APP_PATH  . "/app/config/loader.php";
 
     /**
      * Read services
      */
     include APP_PATH . "/app/config/services.php";
+
 
     /**
      * Handle the request

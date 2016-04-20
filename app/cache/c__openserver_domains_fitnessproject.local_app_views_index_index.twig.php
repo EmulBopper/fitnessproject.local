@@ -1,7 +1,5 @@
-<div class="page-header">
-    <h1>Congratulations!</h1>
-</div>
+<?php
 
-<p>You're now flying with Phalcon. Great things are about to happen!</p>
+echo "<h1>Привет!</h1>";
 
-<p>This page is located at <code>views/index/index.volt</code></p>
+echo $this->tag->linkTo("signup", "Регистрируйся!");
